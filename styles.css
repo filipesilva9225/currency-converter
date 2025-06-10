@@ -139,4 +139,21 @@ label {
 }
 
 .result {
+  background: linear-gradient(circle, pink 65%) purple, 35%;
+  padding: 20px;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  display: none;
+}
+
+.error {
+  background: linear-gradient(45deg, red) rgb(236, 71, 71);
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: none;
 }

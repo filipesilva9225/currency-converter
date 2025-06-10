@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h1>Converter Coins</h1>
-      <form class="converter-form" id="converter-form">
+      <form class="converter-form" id="converterForm">
         <div class="currency-row">
           <div class="currancy-input">
             <label for="amount">Value</label>
@@ -23,7 +23,7 @@
             />
           </div>
           <div class="currency-select">
-            <label for="fromCurrency" id>De</label>
+            <label for="fromCurrency">De</label>
             <select id="fromCurrency" required>
               <option value="USD">USD - dólar</option>
               <option value="EUR">EUR - euro</option>
@@ -51,13 +51,13 @@
           </div>
           <div class="currency-select">
             <label for="toCurrency" id>De</label>
-            <select id="toCurrency" required>
+            <select id="toCurrency">
               <option value="USD" selected>USD - dólar</option>
               <option value="EUR">EUR - euro</option>
               <option value="GBP">GBP - libra esterlina</option>
               <option value="JPY">JPY - iene japonês</option>
               <option value="CNY">CNY - yuan chinês</option>
-              <option value="BRL" selected>BRL - real brasileiro</option>
+              <option value="BRL">BRL - real brasileiro</option>
               <option value="CAD">CAD - dólar canadense</option>
               <option value="AUD">AUD - dólar australiano</option>
               <option value="CHF">CHF - franco suíço</option>
@@ -75,7 +75,7 @@
           <p>Buscando Cotação...</p>
         </div>
 
-        <div class="reult"></div>
+        <div class="result"></div>
 
         <div class="error"></div>
 
@@ -84,5 +84,6 @@
         </div>
       </form>
     </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
