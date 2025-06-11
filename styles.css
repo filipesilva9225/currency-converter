@@ -139,7 +139,7 @@ label {
 }
 
 .result {
-  background: linear-gradient(circle, pink 65%) purple, 35%;
+  background: linear-gradient(45deg, rgb(74, 91, 240)) rgb(71, 142, 236);
   padding: 20px;
   margin-top: 30px;
   color: #fff;

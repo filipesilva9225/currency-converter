@@ -37,6 +37,7 @@ async function convertMoney() {
     const convertedValue = (amount.value * rate).toFixed(2);
 
     convertedAmount.value = convertedValue;
+    result.style.display = "block";
 
     /*innerHTML: permite que insera codigos HTML em uma div vazia */
     result.innerHTML = `
@@ -48,7 +49,6 @@ async function convertMoney() {
       Taxa: 1 ${fromCurrency.value} = ${rate} ${toCurrency.value}
       </div>
     `;
-    result.style.display = "block";
   } catch (err) {
     console.error(err);
     error.style.display = "block";
